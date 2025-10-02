@@ -1,0 +1,18 @@
+# Language-based redirects for projects with subpaths
+/projects/* /fr/projects/:splat 301 Language=fr
+/projects/* /en/projects/:splat 301
+
+# Language-based redirects for projects root
+/projects /fr/projects/ 301 Language=fr
+/projects /en/projects/ 301
+
+# Language-based redirects for experiences with subpaths
+/experiences/* /fr/experiences/:splat 301 Language=fr
+/experiences/* /en/experiences/:splat 301
+
+# Language-based redirects for experiences root
+/experiences /fr/experiences/ 301 Language=fr
+/experiences /en/experiences/ 301
+
+# 404 fallback
+/* /404 404
