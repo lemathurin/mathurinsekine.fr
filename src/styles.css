@@ -150,6 +150,7 @@ a:hover {
 
 a[target="_blank"]:not(:has(img))::after {
   content: " ↗";
+  white-space: nowrap;
   color: var(--tertiary);
 }
 a:hover[target="_blank"]:not(:has(img))::after {
