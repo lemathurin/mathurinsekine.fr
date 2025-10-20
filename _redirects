@@ -5,5 +5,3 @@
 /experiences/* /en/experiences/:splat 301
 
 /experiences /en/experiences/ 301
-
-/* /404/ 404
