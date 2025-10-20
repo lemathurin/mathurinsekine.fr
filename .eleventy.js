@@ -45,6 +45,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ public: "/" });
   eleventyConfig.addPassthroughCopy("src/styles.css");
   eleventyConfig.addPassthroughCopy("src/assets/fonts");
+  eleventyConfig.addPassthroughCopy("_redirects");
 
   // Enable HTML inside Markdown with link attributes
   let markdownLib = markdownIt({
