@@ -281,3 +281,59 @@ hr {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* Footnotes styling */
+.footnotes-sep {
+  border-top: 1px solid var(--quaternary);
+  margin: 2em 0 1em;
+  padding: 0;
+}
+
+.footnotes {
+  font-size: 0.9em;
+  color: var(--secondary);
+}
+
+.footnotes-list {
+  margin: 0;
+  padding-left: 1em;
+}
+
+.footnote-item {
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+}
+
+.footnote-item p {
+  margin: 0;
+  display: inline;
+}
+
+.footnote-ref sup {
+  font-size: 0.8em;
+  vertical-align: super;
+}
+
+.footnote-ref a {
+  text-decoration: none;
+  color: var(--secondary);
+  padding: 0 0.1em;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+
+.footnote-ref a:hover {
+  background: var(--quinary);
+  color: var(--primary);
+}
+
+.footnote-backref {
+  text-decoration: none;
+  margin-left: 0.3em;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.footnote-backref:hover {
+  opacity: 1;
+}
