@@ -36,7 +36,7 @@ layout: layout.njk
   <h2
     id="past-projects-heading"
     style="
-      font-family: var(--font-title);
+      letter-spacing: -0.04em;
       font-size: var(--text-2xl);
       line-height: 1.2;
       font-weight: 400;
@@ -58,7 +58,7 @@ layout: layout.njk
     {% for p in preview %} {% if loop.index <= 4 %}
     <article style="display: flex; flex-direction: column; gap: 0.125rem">
       <a
-        style="padding-bottom: 0.2rem; font-family: var(--font-title); font-size: var(--text-lg);"
+        style="padding-bottom: 0.2rem; letter-spacing: -0.04em; font-size: var(--text-lg);"
         href="/{{ locale }}/projects/{{ p.data.slug }}/"
         >{{ p.data.title }}</a
       >

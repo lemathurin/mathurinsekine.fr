@@ -7,7 +7,7 @@ layout: base.njk
 {% set collection = collections[collectionName] %}
 
 <header style="margin-bottom: -2.1rem">
-  <h1 style="font-family: var(--font-title); font-size: var(--text-3xl); margin-bottom: .5em;">
+  <h1 style="letter-spacing: -0.04em; font-size: var(--text-3xl); margin-bottom: .5em;">
     {{ pageTitle or t[contentType] }}
   </h1>
 </header>
@@ -36,7 +36,7 @@ layout: base.njk
 
     <li>
       <article>
-        <h3 style="font-family: var(--font-title); font-size: var(--text-2xl);">
+        <h3 style="letter-spacing: -0.04em; font-size: var(--text-2xl);">
           <a href="/{{ locale }}/{{ contentType }}/{{ item.data.slug }}/">{{ item.data.title }}</a>
         </h3>
 

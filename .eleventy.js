@@ -36,14 +36,6 @@ export default async function (eleventyConfig) {
           weight: 400,
           style: "normal",
         },
-        {
-          name: "Inter Tight",
-          data: fs.readFileSync(
-            "src/assets/fonts/Inter_Tight/InterTight-Regular.ttf",
-          ),
-          weight: 500,
-          style: "normal",
-        },
       ],
     },
   });
