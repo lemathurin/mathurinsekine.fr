@@ -6,8 +6,8 @@ layout: base.njk
 {% set collectionName = contentType + '_' + locale %}
 {% set collection = collections[collectionName] %}
 
-<header style="margin-bottom: -2.25rem">
-  <h1 style="font-family: var(--font-serif); font-size: 2.5rem; margin-bottom: .5em;">
+<header style="margin-bottom: -2.1rem">
+  <h1 style="font-family: var(--font-title); font-size: var(--text-3xl); margin-bottom: .5em;">
     {{ pageTitle or t[contentType] }}
   </h1>
 </header>
@@ -24,7 +24,7 @@ layout: base.njk
       {% endif %}
 
       <section aria-labelledby="{{ year }}" style="margin-bottom: -2.25rem">
-        <div style="display:flex; align-items:center; gap:1.25rem; margin-bottom:.25rem">
+        <div style="display:flex; align-items:center; gap:1.25rem; margin-bottom:1rem">
           <h2 id="{{ year }}" style="font-size: var(--text-sm); color: var(--secondary);">
             <time datetime="{{ year }}">{{ year }}</time>
           </h2>
@@ -36,7 +36,7 @@ layout: base.njk
 
     <li>
       <article>
-        <h3 style="font-family: var(--font-serif); font-size: var(--text-3xl);">
+        <h3 style="font-family: var(--font-title); font-size: var(--text-2xl);">
           <a href="/{{ locale }}/{{ contentType }}/{{ item.data.slug }}/">{{ item.data.title }}</a>
         </h3>
 
@@ -54,7 +54,7 @@ layout: base.njk
 
         {% if item.data.stack %}
           <p style="
-            margin-bottom:1.25rem; 
+            margin-bottom:1.18rem; 
             font-size: var(--text-sm); 
             color: var(--secondary); 
             overflow: hidden;
