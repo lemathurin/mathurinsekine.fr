@@ -7,8 +7,24 @@ import i18n from "eleventy-plugin-i18n/i18n.js";
 /** @param { import('@11ty/eleventy/src/UserConfig').default } eleventyConfig */
 export default async function (eleventyConfig) {
   // Add environment variable as global data
-  eleventyConfig.addGlobalData("isProduction", process.env.NODE_ENV === 'production');
-  
+  eleventyConfig.addGlobalData(
+    "isProduction",
+    process.env.NODE_ENV === "production",
+  );
+
+  // Create data URL for OG avatar image for Satori
+  const avatarPath = new URL("public/og-avatar.png", import.meta.url).pathname;
+  const avatarData = fs.readFileSync(avatarPath);
+  const ogAvatarDataUrl = `data:image/png;base64,${avatarData.toString("base64")}`;
+  eleventyConfig.addGlobalData("ogAvatarPath", ogAvatarDataUrl);
+
+  // Truncate helper for OG image text
+  eleventyConfig.addFilter("truncateWords", function (text, wordCount = 20) {
+    const words = text.split(" ");
+    if (words.length <= wordCount) return text;
+    return words.slice(0, wordCount).join(" ") + "...";
+  });
+
   // Add the OG Image plugin
   eleventyConfig.addPlugin(EleventyPluginOgImage, {
     previewMode: false,
@@ -21,11 +37,11 @@ export default async function (eleventyConfig) {
           style: "normal",
         },
         {
-          name: "Instrument",
+          name: "Inter Tight",
           data: fs.readFileSync(
-            "src/assets/fonts/Instrument/InstrumentSerif-Regular.ttf",
+            "src/assets/fonts/Inter_Tight/InterTight-Regular.ttf",
           ),
-          weight: 400,
+          weight: 500,
           style: "normal",
         },
       ],
@@ -62,14 +78,6 @@ export default async function (eleventyConfig) {
   });
 
   eleventyConfig.setLibrary("md", markdownLib);
-
-  // Truncate helper for OG image text
-  eleventyConfig.addFilter("ogTruncate", (value, max = 104) => {
-    if (!value) return "";
-    const s = String(value).replace(/\s+/g, " ").trim();
-    if (s.length <= max) return s;
-    return s.slice(0, max).replace(/\s+\S*$/, "") + "…";
-  });
 
   eleventyConfig.addCollection("projects_en", (collectionApi) =>
     collectionApi
