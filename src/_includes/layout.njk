@@ -24,7 +24,8 @@
       {% ogImage "./_includes/og-image.og.njk", {
         title: title or t.metadata.title,
         description: description or t.metadata.description,
-        type: type or ""
+        type: type or "",
+        ogAvatarPath: ogAvatarPath
       } %}
     {% else %}
       <meta property="og:image" content="https://mathurinsekine.fr/og-image.webp" />
