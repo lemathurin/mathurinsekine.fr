@@ -6,17 +6,23 @@ locale: en
 permalink: "/en/"
 ---
 
-# Hey!
+# Mathurin Sekine
 
-I'm Mathurin Sekine, a fullstack developer currently open to new opportunities.
+I am a fullstack developer.[^1] Currently freelancing[^2] and teaching programming at [Ada Tech School](https://adatechschool.fr/). Previously, I worked as a frontend developer at [Juisci](/en/experiences/juisci).
 
-Previously, I worked as a frontend developer at [Juisci](https://juisci.com), where I contributed to building and improving their web app. You can [learn more about my work there](/en/experiences/juisci).
+Most of my experience has been with Node based JS frameworks.[^3] Figma is also my go-to tool for design.
 
-I recently earned my diploma in Application Design and Development (Bachelor's level) from [Ada Tech School](https://adatechschool.fr/).
+In my free time, I am building my first native SwiftUI mobile app called—
 
-My skill set includes frontend technologies like React, Next.js, and Tailwind CSS, as well as backend frameworks such as Express.js and Nest.js. I'm also comfortable using design tools like Figma, and I am capable of contributing to every stage of a project — from concept and UI design to backend architecture and implementation.
-
-If you think I'd be a great fit for your team, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/mathurinsekine/), [Twitter](https://x.com/mathurin_sekine), or [email](mailto:mathurinsekine@gmail.com). You can also check out my [CV](https://drive.google.com/drive/folders/14lc7oAt43DVOJXmW-ZMd9ZqO2eX93dSq?usp=sharing) and [GitHub](https://github.com/lemathurin) for more about my experience and work.
+I haven't figured it out yet, it's a work in progress.[^4]
 
 Cheers,<br />
-Mathurin Sekine
+Mathurin
+
+[^1]: With a preference for frontend development.
+
+[^2]: I am available for freelance work, as well as full-time position offers.
+
+[^3]: React, Next.js, Express, Tailwind CSS, React Query, as well as others. (Everything in TypeScript, of course).
+
+[^4]: I'll finish it someday, promise.

@@ -6,17 +6,23 @@ locale: fr
 permalink: "/fr/"
 ---
 
-# Salut !
+# Mathurin Sekine
 
-Je suis Mathurin Sekine, un développeur fullstack actuellement ouvert à de nouvelles opportunités.
+Je suis développeur full stack.[^1] Actuellement en freelance[^2] et formateur à [Ada Tech School](https://adatechschool.fr/). Auparavant, j'ai travaillé comme développeur front-end chez [Juisci](/fr/experiences/juisci).
 
-J’ai précédemment travaillé chez [Juisci](https://juisci.com) en tant que développeur frontend, où j’ai contribué au développement et à l’amélioration de leur application web. Vous pouvez [en savoir plus sur mon expérience ici](/fr/experiences/juisci).
+Je travaille principalement avec des frameworks JS basés sur Node.[^3] Et Figma pour le design.
 
-Je suis récemment diplômé de [Ada Tech School](https://adatechschool.fr/) avec un titre de Concepteur Développeur d’Applications (niveau bac +3).
+Pendant mon temps libre, je développe ma première application mobile native SwiftUI intitulée...
 
-Je maîtrise des technologies frontend comme React, Next.js et Tailwind CSS, ainsi que des frameworks backend tels qu’Express.js et Nest.js. Je suis également à l’aise avec des outils de design comme Figma, et je suis capable de m’impliquer dans toutes les étapes d’un projet – de la conception à l’architecture backend, en passant par le design d’interface.
-
-Si vous pensez que je pourrais être un bon ajout à votre équipe, n’hésitez pas à me contacter via [LinkedIn](https://www.linkedin.com/in/mathurinsekine/), [Twitter](https://x.com/mathurin_sekine) ou par [e-mail](mailto:mathurinsekine@gmail.com). Vous pouvez également consulter mon [CV](https://drive.google.com/drive/folders/14lc7oAt43DVOJXmW-ZMd9ZqO2eX93dSq?usp=sharing) et mon [GitHub](https://github.com/lemathurin) pour en savoir plus sur mon parcours et mes projets.
+Je n'ai pas encore trouvé de nom, c'est un travail en cours.[^4]
 
 Bonne journée, <br />
 Mathurin Sekine
+
+[^1]: Avec une préférence pour le développement front-end.
+
+[^2]: Je suis disponible pour des missions en freelance, ainsi que pour des postes à temps plein.
+
+[^3]: React, Next.js, Express, Tailwind CSS, React Query, entre autres. (Tout en TypeScript, bien sûr).
+
+[^4]: Je finirai un jour, promis.
