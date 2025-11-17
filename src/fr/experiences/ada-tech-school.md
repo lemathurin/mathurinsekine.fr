@@ -2,7 +2,7 @@
 title: "Ada Tech School"
 slug: "ada-tech-school"
 date: "2025-10-01"
-description: "Mon expérience en tant qu'enseignant(e) à Ada Tech School."
+description: "Mon expérience en tant que formateur à Ada Tech School."
 ---
 
 # Ada Tech School
