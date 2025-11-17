@@ -36,8 +36,8 @@ layout: layout.njk
   <h2
     id="past-projects-heading"
     style="
-      font-family: var(--font-serif);
-      font-size: var(--text-3xl);
+      letter-spacing: -0.04em;
+      font-size: var(--text-2xl);
       line-height: 1.2;
       font-weight: 400;
     "
@@ -58,7 +58,7 @@ layout: layout.njk
     {% for p in preview %} {% if loop.index <= 4 %}
     <article style="display: flex; flex-direction: column; gap: 0.125rem">
       <a
-        style="padding-bottom: 0.25rem"
+        style="padding-bottom: 0.2rem; letter-spacing: -0.04em; font-size: var(--text-lg);"
         href="/{{ locale }}/projects/{{ p.data.slug }}/"
         >{{ p.data.title }}</a
       >
@@ -99,3 +99,25 @@ layout: layout.njk
 </section>
 
 {% include "partials/footer.njk" %}
+
+<script>
+  function getGreeting() {
+    const hour = new Date().getHours();
+    const locale = '{{ locale }}';
+    
+    if (locale === 'fr') {
+      if (hour < 17) return 'Bonne journée';
+      if (hour < 22) return 'Bonne soirée';
+      return 'Bonne nuit';
+    } else {
+      if (hour < 17) return 'Have a good day';
+      if (hour < 22) return 'Have a good evening';
+      return 'Have a good night';
+    }
+  }
+  
+  const greeting = document.getElementById('greeting');
+  if (greeting) {
+    greeting.textContent = getGreeting();
+  }
+</script>

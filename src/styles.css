@@ -25,19 +25,10 @@
     "ss03" on;
 }
 
-@font-face {
-  font-family: "Instrument Serif";
-  src: url("/assets/fonts/Instrument/InstrumentSerif-Regular.woff2")
-    format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
 :root {
   --font-sans:
     "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
     sans-serif;
-  --font-serif: "Instrument Serif", serif;
 
   --text-sm: 0.875rem;
   --text-base: 1rem;
@@ -172,22 +163,22 @@ hr {
 
 /* Prose */
 .prose h1 {
-  font-size: 2.5rem;
-  font-family: var(--font-serif);
-  line-height: 1.5;
+  font-size: var(--text-3xl);
+  letter-spacing: -0.04em;
+  line-height: 1.2;
   margin-bottom: 0.5em;
   font-weight: 400;
 }
 .prose h2 {
-  font-size: 2rem;
-  font-family: var(--font-serif);
+  font-size: var(--text-2xl);
+  letter-spacing: -0.04em;
   line-height: 1.2;
   margin: 1.5em 0 0.5em;
   font-weight: 400;
 }
 .prose h3 {
-  font-size: 1.75rem;
-  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  letter-spacing: -0.04em;
   line-height: 1;
   margin: 1.5em 0 0.5em;
   font-weight: 400;
@@ -208,8 +199,7 @@ hr {
 }
 
 .prose li ul {
-  margin-bottom: 0;
-  margin-top: 0.25em;
+  margin: 0.25em 0;
 }
 
 .prose li ul > li {
@@ -289,4 +279,60 @@ hr {
   .mask-b-from-responsive {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+/* Footnotes styling */
+.footnotes-sep {
+  border-top: 1px solid var(--quaternary);
+  margin: 2.25rem 0;
+  padding: 0;
+}
+
+.footnotes {
+  font-size: 0.9em;
+  color: var(--secondary);
+}
+
+.footnotes-list {
+  margin: 0;
+  padding-left: 1em;
+}
+
+.footnote-item {
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+}
+
+.footnote-item p {
+  margin: 0;
+  display: inline;
+}
+
+.footnote-ref sup {
+  font-size: 0.8em;
+  vertical-align: super;
+}
+
+.footnote-ref a {
+  text-decoration: none;
+  color: var(--secondary);
+  padding: 0 0.1em;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+
+.footnote-ref a:hover {
+  background: var(--quinary);
+  color: var(--primary);
+}
+
+.footnote-backref {
+  text-decoration: none;
+  margin-left: 0.3em;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.footnote-backref:hover {
+  opacity: 1;
 }
