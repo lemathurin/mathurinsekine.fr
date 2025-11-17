@@ -8,7 +8,7 @@ permalink: "/en/"
 
 # Mathurin Sekine
 
-I am a fullstack developer.[^1] Currently freelancing[^2] and teaching programming at [Ada Tech School](https://adatechschool.fr/). Previously, I worked as a frontend developer at [Juisci](/en/experiences/juisci).
+I am a fullstack developer.[^1] Currently freelancing[^2] and teaching programming at [Ada Tech School](/en/experiences/ada-tech-school). Previously, I worked as a frontend developer at [Juisci](/en/experiences/juisci).
 
 Most of my experience has been with Node based JS frameworks.[^3] Figma is also my go-to tool for design.
 

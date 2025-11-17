@@ -8,7 +8,7 @@ permalink: "/fr/"
 
 # Mathurin Sekine
 
-Je suis développeur full stack.[^1] Actuellement en freelance[^2] et formateur à [Ada Tech School](https://adatechschool.fr/). Auparavant, j'ai travaillé comme développeur front-end chez [Juisci](/fr/experiences/juisci).
+Je suis développeur full stack.[^1] Actuellement en freelance[^2] et formateur à [Ada Tech School](/fr/experiences/ada-tech-school). Auparavant, j'ai travaillé comme développeur front-end chez [Juisci](/fr/experiences/juisci).
 
 Je travaille principalement avec des frameworks JS basés sur Node.[^3] Et Figma pour le design.
 
