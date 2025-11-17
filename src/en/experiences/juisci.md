@@ -2,7 +2,7 @@
 title: "Juisci"
 slug: "juisci"
 date: "2024-01-01"
-description: "My experience at Juisci."
+description: "My experience as a developer at Juisci."
 ---
 
 # Juisci
