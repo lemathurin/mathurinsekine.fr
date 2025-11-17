@@ -10,7 +10,7 @@ permalink: "/fr/"
 
 Je suis développeur full-stack.[^1] Actuellement en freelance[^2] et formateur à [Ada Tech School](/fr/experiences/ada-tech-school). Auparavant, j'ai travaillé chez [Juisci](/fr/experiences/juisci) en tant que développeur front-end.
 
-Je travaille principalement avec des frameworks JS basés sur Node.[^3] Et Figma pour le design.
+Je travaille principalement avec des frameworks JS et des outils basés sur Node.js.[^3] Ainsi que Figma pour le design.
 
 Pendant mon temps libre, je développe ma première application mobile native SwiftUI intitulée...
 
