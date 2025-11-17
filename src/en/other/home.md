@@ -16,7 +16,7 @@ In my free time, I am building my first native SwiftUI mobile app called—
 
 I haven't figured it out yet, it's a work in progress.[^4]
 
-Cheers,<br />
+<span id="greeting">Cheers</span>,<br />
 Mathurin
 
 [^1]: With a preference for frontend development.

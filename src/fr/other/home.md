@@ -16,7 +16,7 @@ Pendant mon temps libre, je développe ma première application mobile native Sw
 
 Je n'ai pas encore trouvé de nom, c'est un travail en cours.[^4]
 
-Bonne journée, <br />
+<span id="greeting">Bonne journée</span>, <br />
 Mathurin Sekine
 
 [^1]: Avec une préférence pour le développement front-end.

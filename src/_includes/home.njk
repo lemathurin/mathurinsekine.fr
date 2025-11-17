@@ -99,3 +99,25 @@ layout: layout.njk
 </section>
 
 {% include "partials/footer.njk" %}
+
+<script>
+  function getGreeting() {
+    const hour = new Date().getHours();
+    const locale = '{{ locale }}';
+    
+    if (locale === 'fr') {
+      if (hour < 17) return 'Bonne journée';
+      if (hour < 22) return 'Bonne soirée';
+      return 'Bonne nuit';
+    } else {
+      if (hour < 17) return 'Have a good day';
+      if (hour < 22) return 'Have a good evening';
+      return 'Have a good night';
+    }
+  }
+  
+  const greeting = document.getElementById('greeting');
+  if (greeting) {
+    greeting.textContent = getGreeting();
+  }
+</script>
