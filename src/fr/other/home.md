@@ -1,6 +1,6 @@
 ---
 title: "Mathurin Sekine"
-description: "Développeur fullstack, spécialisé dans React, Next.js, et les technologies web modernes."
+description: "Développeur full-stack, spécialisé dans React, Next.js, et les technologies web modernes."
 layout: home.njk
 locale: fr
 permalink: "/fr/"
@@ -8,7 +8,7 @@ permalink: "/fr/"
 
 # Mathurin Sekine
 
-Je suis développeur full stack.[^1] Actuellement en freelance[^2] et formateur à [Ada Tech School](/fr/experiences/ada-tech-school). Auparavant, j'ai travaillé comme développeur front-end chez [Juisci](/fr/experiences/juisci).
+Je suis développeur full-stack.[^1] Actuellement en freelance[^2] et formateur à [Ada Tech School](/fr/experiences/ada-tech-school). Auparavant, j'ai travaillé chez [Juisci](/fr/experiences/juisci) en tant que développeur front-end.
 
 Je travaille principalement avec des frameworks JS basés sur Node.[^3] Et Figma pour le design.
 
