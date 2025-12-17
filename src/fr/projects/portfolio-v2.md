@@ -6,7 +6,7 @@ description: "Une version raffinée et simplifiée de mon portfolio, réalisée 
 stack:
   - Eleventy
   - Nunjucks
-  - Vercel
+  - Cloudflare Pages
 ---
 
 # Portfolio V2.1 (version actuelle)
@@ -17,11 +17,11 @@ stack:
 
 ## Présentation du projet
 
-Après avoir travaillé sur une vraie base de code pendant mon alternance chez [Juisci](/fr/experiences/juisci), j’ai beaucoup mieux compris la programmation par rapport à quand j’ai fait la [première version de ce portfolio](/fr/projects/portfolio-v1). 
+Après avoir travaillé sur une vraie base de code pendant mon alternance chez [Juisci](/fr/experiences/juisci), j’ai beaucoup mieux compris la programmation par rapport à quand j’ai fait la [première version de ce portfolio](/fr/projects/portfolio-v1).
 
 [J’ai initialement réalisé la V2 avec Next.js](https://github.com/lemathurin/mathurinsekine.fr/tree/v2), mais j’ai rapidement réalisé que ce n’était pas l’outil approprié à mes besoins. La majorité de mon contenu est statique et écrit en markdown, d’où le passage à Eleventy. Cela a considérablement augmenté la vitesse du site et réduit sa taille.
 
-Les images sont hébergées sur [UploadThing](https://uploadthing.com/), et le site est déployé avec [Vercel](https://vercel.com).
+Les images sont hébergées sur [UploadThing](https://uploadthing.com/), et le site est déployé avec ~~Vercel~~ [Cloudflare Pages](https://pages.cloudflare.com/).
 
 > "J'imagine qu'il est tentant, si le seul outil dont vous disposiez est un ~~marteau~~ framework React, de tout considérer comme un ~~clou~~ SaaS B2B fullstack financé par des VC."
 
@@ -29,7 +29,7 @@ Les images sont hébergées sur [UploadThing](https://uploadthing.com/), et le s
 
 - [Eleventy](https://www.11ty.dev/)
 - Nunjucks
-- Vercel
+- ~~Vercel~~ Cloudflare Pages
 
 ## Inspiration
 

@@ -6,7 +6,7 @@ description: "A refined and simplified version of my portfolio, built with Eleve
 stack:
   - Eleventy
   - Nunjucks
-  - Vercel
+  - Cloudflare Pages
 ---
 
 # Portfolio V2.1 (current version)
@@ -21,7 +21,7 @@ After working on a real codebase during my apprenticeship at [Juisci](/en/experi
 
 [I originally made V2 with Next.js](https://github.com/lemathurin/mathurinsekine.fr/tree/v2), but quickly realized that it was not the correct tool for my needs. Most of my content is static and written in markdown, so I decided to move to Eleventy. This has greatly increased the website's speed and decreased its size.
 
-Images are hosted on [UploadThing](https://uploadthing.com/), and the website is deployed with [Vercel](https://vercel.com).
+Images are hosted on [UploadThing](https://uploadthing.com/), and the website is deployed with ~~Vercel~~ [Cloudflare Pages](https://pages.cloudflare.com/).
 
 > "It is tempting, if the only tool you have is a ~~hammer~~ React framework, to treat everything as if it were a ~~nail~~ VC-funded fullstack B2B SaaS application."
 
@@ -29,7 +29,7 @@ Images are hosted on [UploadThing](https://uploadthing.com/), and the website is
 
 - [Eleventy](https://www.11ty.dev/)
 - Nunjucks
-- Vercel
+- ~~Vercel~~ Cloudflare Pages
 
 ## Inspiration
 
