@@ -1,0 +1,32 @@
+---
+pagination:
+  data: collections.all
+  size: 1
+  alias: item
+  filter:
+    - ""
+eleventyExcludeFromCollections: true
+permalink: "{{ item.url | toMdPath }}"
+eleventyAllowMissingExtension: true
+---
+{%- if item.url | toMdPath %}{%- if item.data.title %}
+---
+title: {{ item.data.title }}
+{%- if item.data.description %}
+description: {{ item.data.description }}
+{%- endif %}
+{%- if item.data.date %}
+date: {{ item.data.date }}
+{%- endif %}
+{%- if item.data.stack %}
+stack:
+{%- for tech in item.data.stack %}
+  - {{ tech }}
+{%- endfor %}
+{%- endif %}
+url: {{ item.url }}
+---
+{%- endif %}
+
+{{ item.inputPath | rawMarkdown | safe }}
+{%- endif %}

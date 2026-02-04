@@ -3,6 +3,7 @@ import markdownIt from "markdown-it";
 import markdownItLinkAttributes from "markdown-it-link-attributes";
 import markdownItFootnote from "markdown-it-footnote";
 import fs from "fs";
+import path from "path";
 import i18n from "eleventy-plugin-i18n/i18n.js";
 
 /** @param { import('@11ty/eleventy/src/UserConfig').default } eleventyConfig */
@@ -24,6 +25,24 @@ export default async function (eleventyConfig) {
     const words = text.split(" ");
     if (words.length <= wordCount) return text;
     return words.slice(0, wordCount).join(" ") + "...";
+  });
+
+  eleventyConfig.addFilter("rawMarkdown", function (inputPath) {
+    if (!inputPath) return "";
+    const fullPath = path.resolve(".", inputPath);
+    try {
+      const content = fs.readFileSync(fullPath, "utf-8");
+      const match = content.match(/^---[\s\S]*?---\s*([\s\S]*)$/);
+      return match ? match[1].trim() : content;
+    } catch {
+      return "";
+    }
+  });
+
+  eleventyConfig.addFilter("toMdPath", function (url) {
+    if (!url || url === "/") return false;
+    const clean = url.replace(/\/$/, "").replace(/^\//, "");
+    return clean ? `/${clean}.md` : false;
   });
 
   // Add the OG Image plugin
