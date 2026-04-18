@@ -2,11 +2,11 @@
 title: "Ada Tech School"
 slug: "ada-tech-school"
 date: "2025-10-01"
-description: "My experience as a teacher at Ada Tech School."
+description: "My experience as a teacher at Ada Tech School (2025–2026)."
 ---
 
 # Ada Tech School
 
-Twice a week, I can be found at [Ada Tech School](https://adatechschool.fr/) teaching web development to beginner and intermediate students.
+From 2025 to 2026, I taught web development at [Ada Tech School](https://adatechschool.fr/) twice a week to beginner and intermediate students.
 
-I prepare and give lessons, help students with their projects, and answer their questions. Basic HTML, React, accessibility, CI/CD, and more—we cover everything a new developper needs to know before starting their apprenticeship.
+I prepared and gave lessons, helped students with their projects, and answered their questions. Basic HTML, React, accessibility, CI/CD, and more. We covered everything a new developer needs to know before starting their apprenticeship.

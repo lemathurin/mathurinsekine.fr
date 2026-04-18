@@ -2,11 +2,11 @@
 title: "Ada Tech School"
 slug: "ada-tech-school"
 date: "2025-10-01"
-description: "Mon expérience en tant que formateur à Ada Tech School."
+description: "Mon expérience en tant que formateur à Ada Tech School (2025–2026)."
 ---
 
 # Ada Tech School
 
-Deux fois par semaine, je peux être trouvé à [Ada Tech School](https://adatechschool.fr/) enseignant le développement web à des apprenantes débutantes et intermédiaires.
+De 2025 à 2026, j'ai enseigné le développement web à [Ada Tech School](https://adatechschool.fr/) deux fois par semaine à des apprenantes débutantes et intermédiaires.
 
-Je prépare et donne des cours, aide les apprenantes avec leurs projets et réponds à leurs questions. HTML basique, React, accessibilité, CI/CD et plus. On couvre tout ce qu'un nouveau développeur doit savoir avant de commencer son alternance.
+Je préparais et donnais des cours, aidais les apprenantes avec leurs projets et répondais à leurs questions. HTML basique, React, accessibilité, CI/CD et plus. On couvrait tout ce qu'un nouveau développeur doit savoir avant de commencer son alternance.
