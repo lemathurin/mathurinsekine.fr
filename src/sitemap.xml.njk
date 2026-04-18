@@ -1,0 +1,42 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://mathurinsekine.fr/</loc>
+  </url>
+  <url>
+    <loc>https://mathurinsekine.fr/en/</loc>
+  </url>
+  <url>
+    <loc>https://mathurinsekine.fr/fr/</loc>
+  </url>
+  <url>
+    <loc>https://mathurinsekine.fr/en/projects/</loc>
+  </url>
+  <url>
+    <loc>https://mathurinsekine.fr/fr/projects/</loc>
+  </url>
+  {%- for project in collections.projects_en %}
+  <url>
+    <loc>https://mathurinsekine.fr{{ project.url }}</loc>
+  </url>
+  {%- endfor %}
+  {%- for project in collections.projects_fr %}
+  <url>
+    <loc>https://mathurinsekine.fr{{ project.url }}</loc>
+  </url>
+  {%- endfor %}
+  {%- for exp in collections.experiences_en %}
+  <url>
+    <loc>https://mathurinsekine.fr{{ exp.url }}</loc>
+  </url>
+  {%- endfor %}
+  {%- for exp in collections.experiences_fr %}
+  <url>
+    <loc>https://mathurinsekine.fr{{ exp.url }}</loc>
+  </url>
+  {%- endfor %}
+</urlset>
