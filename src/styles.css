@@ -211,8 +211,20 @@ hr {
   margin-bottom: 1em;
 }
 
+@media (min-width: 40rem) {
+  .prose figure {
+    width: min(calc(100% + 20rem), calc(100vw - 2.5rem));
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-block: 1.5em;
+  }
+}
+
 .prose figure img,
 .prose figure video {
+  width: 100%;
+  margin-inline: 0;
   margin-bottom: 0.5em;
 }
 
@@ -221,6 +233,8 @@ hr {
   margin-bottom: 2em;
   text-align: center;
   color: var(--secondary);
+  max-width: 32rem;
+  margin-inline: auto;
 }
 
 .prose blockquote {

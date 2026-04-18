@@ -17,7 +17,7 @@ stack:
 - 02/2024 -> 04/2024
 - [Voir le code sur Github](https://github.com/lemathurin/portfolio/tree/v1)
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXXGT3V6tgs8zZdmwB31rtVQfjMYHnJCTbkAFD"
   alt="A screenshot of the website's landing page, with a big bold welcome."
 />
@@ -35,7 +35,7 @@ La version 1.0 du portfolio est le premier projet de développement personnel qu
 ## Inspiration du design
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXNaNka1PV9aX7GKwfgvtTzMLsJeBUjynFP40u"
     alt="Capture d'écran du site web de Cognac Godet montrant du gros texte avec des images entre certains mots."
   />
@@ -45,7 +45,7 @@ La version 1.0 du portfolio est le premier projet de développement personnel qu
 </figure>
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXSTbezC8Wfbl01CeIMUcRpEmhQG4jYasznHtF"
     alt="Le site web d'Amie, avec une barre de navigation semi-transparente."
   />
@@ -57,7 +57,7 @@ La version 1.0 du portfolio est le premier projet de développement personnel qu
 </figure>
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwX5EK9xD6TtcdGu2sI9C7yblXkPZFSViHm6rvT"
     alt="Le site de Pedro Duarte en mode sombre, très simple et minimaliste."
   />
@@ -69,7 +69,7 @@ La version 1.0 du portfolio est le premier projet de développement personnel qu
 </figure>
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXqOnHkkpzH4LXy51GktTuheFlUAwcv2VgQarK"
     alt="Un diagramme de bouton avec toutes ses ombres et couleurs expliquées."
   />
@@ -81,39 +81,39 @@ La version 1.0 du portfolio est le premier projet de développement personnel qu
 
 ## Iterations
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXNMwomyPV9aX7GKwfgvtTzMLsJeBUjynFP40u"
   alt="Une capture d'écran du fichier Figma utilisé pour explorer toutes les possibilités de conception."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwX2GSHOZjab2JnoGdL156AWIvsmt0jQPpKyFz8"
   alt="1ère itération - police mono, fond blanc, page unique avec de nombreux liens."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXJJ0LUt1nGRHqvcgpfS0e7yN8ktYUhAQFDzrO"
   alt="2ème itération - mode sombre, un bloc de texte avec des liens en surbrillance."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXNJb9nhPV9aX7GKwfgvtTzMLsJeBUjynFP40u"
   alt="3e itération - barre de navigation, grand message de bienvenue et deux paragraphes."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXV5A2yDXW2IYZeJEMPLR5VcHjlGStDmU1vKni"
   alt="4ème itération - barre de navigation en haut, message de bienvenue, et paragraphes avec images et entre les mots."
 />
 
 ## Produit final
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwX2knYmTjab2JnoGdL156AWIvsmt0jQPpKyFz8"
   alt="Capture d'écran montrant la barre de navigation ouverte sur l'onglet projets."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXClpXc3UN4nf7yrSBlbuPZFEswqdUCpk3ochN"
   alt="Capture d'écran montrant la barre de navigation ouverte sur l'onglet des notes."
 />

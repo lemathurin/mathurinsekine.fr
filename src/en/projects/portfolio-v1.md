@@ -19,7 +19,7 @@ stack:
 
 ## Project overview
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXXGT3V6tgs8zZdmwB31rtVQfjMYHnJCTbkAFD"
   alt="A screenshot of the website's landing page, with a big bold welcome."
 />
@@ -37,7 +37,7 @@ Portfolio version 1.0 was the first personal development project I completed sin
 ## Design inspiration
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXNaNka1PV9aX7GKwfgvtTzMLsJeBUjynFP40u"
     alt="Screenshot of the Cognac Godet website showing big serif text with images in between some words."
   />
@@ -47,7 +47,7 @@ Portfolio version 1.0 was the first personal development project I completed sin
 </figure>
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXSTbezC8Wfbl01CeIMUcRpEmhQG4jYasznHtF"
     alt="Amie's website, with a semi-transparent navbar."
   />
@@ -59,7 +59,7 @@ Portfolio version 1.0 was the first personal development project I completed sin
 </figure>
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwX5EK9xD6TtcdGu2sI9C7yblXkPZFSViHm6rvT"
     alt="Pedro Duarte's website in dark mode, very simple and minimalistic."
   />
@@ -70,7 +70,7 @@ Portfolio version 1.0 was the first personal development project I completed sin
 </figure>
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXqOnHkkpzH4LXy51GktTuheFlUAwcv2VgQarK"
     alt="A diagram of button with all its shadows and colors explained."
   />
@@ -82,39 +82,39 @@ Portfolio version 1.0 was the first personal development project I completed sin
 
 ## Iterations
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXNMwomyPV9aX7GKwfgvtTzMLsJeBUjynFP40u"
   alt="A screenshot of the Figma file used to explore all the design possibilities."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwX2GSHOZjab2JnoGdL156AWIvsmt0jQPpKyFz8"
   alt="1st iteration - mono font, white background, single page with lots of links."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXJJ0LUt1nGRHqvcgpfS0e7yN8ktYUhAQFDzrO"
   alt="2nd iteration - dark mode, one block of text with links highlighted."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXNJb9nhPV9aX7GKwfgvtTzMLsJeBUjynFP40u"
   alt="3rd iteration - navbar, big welcome message, and two paragraphs."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXV5A2yDXW2IYZeJEMPLR5VcHjlGStDmU1vKni"
   alt="4th iteration - navbar at the top, welcome message, and paragraphs with images and between words."
 />
 
 ## Final product
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwX2knYmTjab2JnoGdL156AWIvsmt0jQPpKyFz8"
   alt="Screenshot showing the navbar opened on the projects tab."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXClpXc3UN4nf7yrSBlbuPZFEswqdUCpk3ochN"
   alt="Screenshot showing the navbar opened on the notes tab."
 />

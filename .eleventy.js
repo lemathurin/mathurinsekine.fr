@@ -119,6 +119,18 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.setLibrary("md", markdownLib);
 
+  eleventyConfig.addTransform("img-to-figure", function (content) {
+    if (this.page.outputPath?.endsWith(".html")) {
+      return content
+        .replace(/<p>(<img\s[^>]*>)<\/p>/g, "<figure>$1</figure>")
+        .replace(
+          /<p>(<video[\s>][\s\S]*?<\/video>)<\/p>/g,
+          "<figure>$1</figure>",
+        );
+    }
+    return content;
+  });
+
   eleventyConfig.addCollection("projects_en", (collectionApi) =>
     collectionApi
       .getFilteredByGlob("src/en/projects/*.md")

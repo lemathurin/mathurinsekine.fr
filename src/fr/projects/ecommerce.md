@@ -18,12 +18,14 @@ stack:
 - 04/03/2024 -> 14/03/2024
 - [Voir le code sur Github](https://github.com/lemathurin/e-commerce-website)
 
-<video width="800" height="auto" controls autoPlay muted loop>
+<figure>
+<video controls autoPlay muted loop>
   <source
     src="https://github.com/user-attachments/assets/54c1ef86-dd07-4247-8cda-a00c4a0eca00"
     type="video/mp4"
   />
 </video>
+</figure>
 
 ## Présentation du projet
 

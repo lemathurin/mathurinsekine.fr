@@ -34,32 +34,32 @@ C'était mon premier projet de groupe depuis le début de ma formation de dével
 
 J'ai appris à programmer en Lua et à comprendre les mécanismes fondamentaux des jeux tels que la gravité, les collisions et les game states. J'ai pris beaucoup de plaisir à travailler sur l'art, même si la palette de couleurs du Pico-8 est très limitée.
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXhoYKEmZgUTZi1IXl89BAyExJo46K3DYk0pVC"
   alt="Capture d'écran des itérations de conception réalisées dans Affinity Designer."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXNbp5WfrPV9aX7GKwfgvtTzMLsJeBUjynFP40"
   alt="L'écran de chargement du jeu, montrant notre faux logo de studio."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXyw7RiAuqBWUTLJdcqpZ3N9a6DX2rf1IAegxG"
   alt="L'écran de menu du jeu, montrant les options et les montagnes."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXbl3ef7H43ci8ULMeQfRV6AKa09oxd7Xg5mDJ"
   alt="Le niveau du jeu. Un jeu de plateforme avec un petit bonhomme qui doit passer de l'autre côté.."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXZsqeiKCSLlRducqbNZgY7F3QVhKp02nC4JrI"
   alt="L'écran du concepteur de niveau de Pico-8."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwX1ypzSuIRHdtW9MuSenZ7CN360Bwy8IpQijUb"
   alt="L'écran du concepteur de sprites de Pico-8."
 />

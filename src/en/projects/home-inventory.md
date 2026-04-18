@@ -60,7 +60,7 @@ The main goal was to create an intuitive, functional application tailored to rea
 We first defined the key features through personas, then moved on to database architecture and wireframes.
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXE387FvsG6gOnMlAdUt9PS0o4YsupbXwEmJa5"
     alt="Entity-relationship diagram showing users linked to homes, rooms, and items, with permission tables."
   />
@@ -72,7 +72,7 @@ The database design followed a progressive approach, starting from a Conceptual 
 Many-to-many relationships were normalized via junction tables (`UserHome`, `UserRoom`, etc.), enabling fine-grained permission management while ensuring data consistency. This structure facilitates multi-user collaboration and allows flexible item relocation between homes.
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXPwfISslwEzpJ68oQB5uCRd9GjhgDNyL0AeaO"
     alt="Wireframes created in Figma, showing pages such as item detail, item creation, home settings, and related modals."
   />
@@ -82,7 +82,7 @@ Many-to-many relationships were normalized via junction tables (`UserHome`, `Use
 Created in Figma, the wireframes define the interface structure and user flows. They laid the groundwork for navigation, admin pages (dashboard, settings, forms), and helped validate usability before visual design.
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXhNS9BIRZgUTZi1IXl89BAyExJo46K3DYk0pV"
     alt="High-fidelity mockup of the dashboard, showing recently added items, recently modified rooms, and items with expiring warranties."
   />
@@ -96,7 +96,7 @@ Accessibility was prioritized at this stage, with sufficient contrast, clear hie
 ## Layered Architecture
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXZLjEBNCSLlRducqbNZgY7F3QVhKp02nC4JrI"
     alt="A diagram of the overall project architecture, showing frontend/backend communication and used technologies."
   />
@@ -116,7 +116,7 @@ The backend is structured into distinct layers:
 - **Utils**: reusable utility functions
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXS2yPpA8Wfbl01CeIMUcRpEmhQG4jYasznHtF"
     alt="Screenshot of 'item' routes with middlewares."
   />
@@ -135,7 +135,7 @@ Each domain includes a standardized internal structure:
 - `context`: Provides a React context for shared state/functions across components
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXWOZl3YecTO3iMto6emnEgLb4HW1Ns8plvYJ0"
     alt="Screenshot of the 'home' domain structure showing hooks, types, endpoints, and context."
   />
@@ -147,7 +147,7 @@ Each domain includes a standardized internal structure:
 > We chose not to implement media/file upload due to time constraints (1 day per week).
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwX8CYx1J9JDTfWgAlhuPovV1HpMsKxLraBSFC5"
     alt="Dashboard screenshot showing 9 most recently added items."
   />
@@ -155,7 +155,7 @@ Each domain includes a standardized internal structure:
 </figure>
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXNA541FPV9aX7GKwfgvtTzMLsJeBUjynFP40u"
     alt="Screenshot of the item creation page, showing fields: name, description, price, purchase date, followed by room and visibility selectors, and a warranty toggle."
   />
@@ -163,7 +163,7 @@ Each domain includes a standardized internal structure:
 </figure>
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXPRfJcDlwEzpJ68oQB5uCRd9GjhgDNyL0AeaO"
     alt="Screenshot of the home settings page with panels for managing rooms and users."
   />
@@ -173,7 +173,7 @@ Each domain includes a standardized internal structure:
 Home administrators can create invite codes to let users join the home.
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXhN8fKEKZgUTZi1IXl89BAyExJo46K3DYk0pV"
     alt="Screenshot of the account settings page with fields to update name, email, and password."
   />
@@ -183,7 +183,7 @@ Home administrators can create invite codes to let users join the home.
 Users can, of course, delete their account, along with everything linked to it.
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXdiNEhJzA4DlvUCmBMNKuXES8br2QGyHYWjhk"
     alt="Dashboard screenshot with dark mode enabled."
   />

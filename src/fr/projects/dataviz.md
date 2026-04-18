@@ -34,37 +34,37 @@ L'objectif de ce projet était de récupérer des données à partir d'une API e
 
 J'ai appris à utiliser la mise en page automatique dans Figma, ainsi que le mode développeur pour passer rapidement de la maquette au code. Cela a considérablement accéléré mon travail. J'ai également appris comment fonctionnent les APIs.
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXnkCrNtdk1HQbsGuORt0evoCdByaTcwVXPY3n"
   alt="Une capture d'écran du fichier Figma avec de nombreuses itérations."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXliq4hthbbFRm7wShzYQZJ4WeOX8q02spPHKE"
   alt="La page d'atterrissage du site web, simulant un panneau suspendu dans une gare."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXhzj9rbZgUTZi1IXl89BAyExJo46K3DYk0pVC"
   alt="Ecran d'information du site web imitant les écrans d'information de la SNCF."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXZY97tkCSLlRducqbNZgY7F3QVhKp02nC4JrI"
   alt="Plus d'informations sur le thème du projet."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXKnYOUjAcmO8GRLeJYsvghDBZQ7HqM4uXVxdW"
   alt="Une statistique du nombre total d'objets perdus dans la journée sur un tableau d'affichage LED à l'ancienne."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXBAljGW5ygZYsk4tlQf0ozc9GINETum85aJj2"
   alt="Recréation d'une conversation de chat sur iPhone avec des informations sur un train en retard à cause d'un objet oublié."
 />
 
-<Image
+<img
   src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXpoVa77wNHujlCZkQLaxr5FtMDdA6mY9bBcUG"
   alt="Statistiques des 100 derniers jours."
 />

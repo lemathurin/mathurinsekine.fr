@@ -68,7 +68,7 @@ L’objectif principal était de concevoir une application intuitive, fonctionne
 On a d'abord évalué les caractéristiques clés qui étaient nécessaires avec des personas, puis on est passés à l'architecture de la base de données et aux wireframes.
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXE387FvsG6gOnMlAdUt9PS0o4YsupbXwEmJa5"
     alt="Diagramme entité-relation montrant des utilisateurs liés à des maisons, des pièces et des objets avec des tables de permissions."
   />
@@ -80,7 +80,7 @@ La conception de la base de données a suivi une approche progressive, en partan
 Les relations many-to-many ont été normalisées via des tables de liaison (`UserHome`, `UserRoom`, etc.), permettant une gestion fine des permissions tout en assurant la cohérence des données. Cette structure facilite la collaboration multi-utilisateurs et permet le déplacement flexible des objets dans les logements.
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXPwfISslwEzpJ68oQB5uCRd9GjhgDNyL0AeaO"
     alt="Wireframes du projet créés dans Figma, montrant certaines des pages, telles que la page de l'objet, la page d'ajout d'objet, la page des paramètres de la maison, et leurs modales respectives."
   />
@@ -90,7 +90,7 @@ Les relations many-to-many ont été normalisées via des tables de liaison (`Us
 Réalisés dans Figma, les wireframes définissent la structure des interfaces et les parcours utilisateurs. Ils posent les bases de la navigation, des pages de gestion (tableau de bord, paramètres, formulaires), et permettent de valider l’ergonomie avant le travail de design visuel.
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXhNS9BIRZgUTZi1IXl89BAyExJo46K3DYk0pV"
     alt="Maquette du tableau de bord montrant les derniers objets ajoutés, les pièces récemment modifiées, et les objets avec des garanties expirantes."
   />
@@ -104,7 +104,7 @@ Une attention particulière a été portée à l’accessibilité dès cette ét
 ## Architecture en couches
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXZLjEBNCSLlRducqbNZgY7F3QVhKp02nC4JrI"
     alt="Un schéma de l'architecture globale du projet, montrant comment le frontend et le backend communiquent et quelles technologies sont utilisées."
   />
@@ -124,7 +124,7 @@ Le backend est structuré en couches distinctes :
 - **Utils** : fonctions utilitaires réutilisées.
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXS2yPpA8Wfbl01CeIMUcRpEmhQG4jYasznHtF"
     alt="Une capture d'écran des routes 'item', montrant les middlewares."
   />
@@ -143,7 +143,7 @@ Chaque domaine contient une structure interne standardisée :
 - `context` : Fournit un contexte React spécifique au domaine, permettant de partager efficacement des états ou des fonctions entre plusieurs composants sans avoir à propager les props manuellement
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXWOZl3YecTO3iMto6emnEgLb4HW1Ns8plvYJ0"
     alt="Une capture d'écran de la structure du domaine 'home', montrant les hooks, types, endpoints, et context."
   />
@@ -155,7 +155,7 @@ Chaque domaine contient une structure interne standardisée :
 > Nous avons décidé de ne pas inclure le téléchargement d'images/fichiers car nous n'avions pas assez de temps pour le faire proprement (1 jour par semaine).
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwX8CYx1J9JDTfWgAlhuPovV1HpMsKxLraBSFC5"
     alt="Capture d'écran du tableau de bord, montrant 9 des objets les plus récemment ajoutés."
   />
@@ -163,7 +163,7 @@ Chaque domaine contient une structure interne standardisée :
 </figure>
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXNA541FPV9aX7GKwfgvtTzMLsJeBUjynFP40u"
     alt="Capture d'écran de la page de création d'objet, avec les champs : nom de l'objet, description, prix, date d'achat. Suivi d'un sélecteur de pièce et de visibilité, ainsi qu'un interrupteur pour ajouter une garantie."
   />
@@ -171,7 +171,7 @@ Chaque domaine contient une structure interne standardisée :
 </figure>
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXPRfJcDlwEzpJ68oQB5uCRd9GjhgDNyL0AeaO"
     alt="Capture d'écran de la page des paramètres de la maison, montrant un panneau pour gérer les pièces, et un autre panneau pour gérer les utilisateurs."
   />
@@ -181,7 +181,7 @@ Chaque domaine contient une structure interne standardisée :
 Les administrateurs d'une maison peuvent créer des codes d'invitation pour permettre aux utilisateurs de la rejoindre.
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXhN8fKEKZgUTZi1IXl89BAyExJo46K3DYk0pV"
     alt="Capture d'écran de la page des paramètres du compte, montrant des champs pour mettre à jour le nom du compte, l'e-mail et le mot de passe."
   />
@@ -191,7 +191,7 @@ Les administrateurs d'une maison peuvent créer des codes d'invitation pour perm
 Les utilisateurs peuvent bien sûr supprimer leur compte, ainsi que tout ce qui est lié à leur compte.
 
 <figure>
-  <Image
+  <img
     src="https://5q44w9bzpv.ufs.sh/f/vqzvWuhpJmwXdiNEhJzA4DlvUCmBMNKuXES8br2QGyHYWjhk"
     alt="Capture d'écran du tableau de bord avec le mode sombre activé."
   />
