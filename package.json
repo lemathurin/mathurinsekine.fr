@@ -16,11 +16,16 @@
     "build": "NODE_ENV=production npx @11ty/eleventy"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "eleventy-plugin-og-image": "^4.2.0",
-    "markdown-it": "^14.1.0",
-    "prettier": "^3.6.2",
+    "@11ty/eleventy": "^3.1.6",
+    "eleventy-plugin-og-image": "^4.3.0",
+    "markdown-it": "^14.3.0",
+    "prettier": "^3.9.6",
     "prettier-plugin-jinja-template": "^2.1.0"
+  },
+  "overrides": {
+    "@11ty/recursive-copy": "^5.0.2",
+    "minimatch": "^10.2.6",
+    "brace-expansion": "^5.0.8"
   },
   "dependencies": {
     "eleventy-plugin-i18n": "^0.1.3",
