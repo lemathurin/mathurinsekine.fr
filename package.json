@@ -25,7 +25,7 @@
   "overrides": {
     "@11ty/recursive-copy": "^5.0.2",
     "minimatch": "^10.2.6",
-    "brace-expansion": "^5.0.8"
+    "brace-expansion": "^5.0.9"
   },
   "dependencies": {
     "eleventy-plugin-i18n": "^0.1.3",
