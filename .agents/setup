@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+step() {
+  local label="$1"
+  shift
+  printf '\n==> %s\n' "$label"
+  time "$@"
+}
+
+command -v node >/dev/null || {
+  echo "Node.js is required but is not installed." >&2
+  exit 1
+}
+command -v npm >/dev/null || {
+  echo "npm is required but is not installed." >&2
+  exit 1
+}
+
+printf 'Using Node.js %s and npm %s\n' "$(node --version)" "$(npm --version)"
+step "Installing dependencies from package-lock.json" npm ci --no-audit --no-fund
